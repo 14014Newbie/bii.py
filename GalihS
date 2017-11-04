@@ -17,8 +17,10 @@ ki = kk = ks = kc = ka = cl
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""By.Nunu:Bot v2.1 
-  
+helpMessage ="""Selfbot Creator Bii 
+
+    ={Selfbot}=
+
 🍀[Id]: ~÷~
 🍀[Mid]: ~÷~
 🍀[All mid]:
@@ -41,8 +43,6 @@ helpMessage ="""By.Nunu:Bot v2.1
 🍀[Ban]: "Add blacklist"
 🍀[Unban]: "Dalate blacklist"
 🍀[Banlist]: "Check blacklist"
-
--⚠™[ƧЄƬ]:ƇƠMMƛƝƊƧ ƧЄƬ. -
 🌿[Contact: on/off]: 
 🌿[Auto join: on/off]: 
 🌿[Cancel Invite: 1 on/off]:
@@ -51,8 +51,6 @@ helpMessage ="""By.Nunu:Bot v2.1
 🌿[Comment: on/off]: 
 🌿[Auto add: on/off]: 
 🌿[Auto like: on/off]: 
-	
--⚠™ƇƠMMƛƝƊƧ ƖƝ ƬHЄ ƓƦƠƲƤƧ. ~~~~
 ☘[Ban " @Tag]: 
 ☘[Unban " @Tag]: 
 ☘[Urlon]: "Open urL"
@@ -65,10 +63,10 @@ helpMessage ="""By.Nunu:Bot v2.1
 ☘[Gn: "name"]: "Change name Group"
 ☘[NK: "Name"]: ~÷~
 ☘[Dead]: "Kick Blacklist"
-       By.Nunu
-      http://line.me/ti/p/ShgslAPyYS  
+       
+ {SELFBOT CREATOR BII}  
 """
-helpMessage2 ="""-⚠™ -
+helpMessage2 ="""CREATOR BII
 
 🍃[ƤƦƠƬЄƇƬ: ƠƝ/ƠƑƑ]: 
 🍃[ƁԼƠƇƘ ƲƦԼ: ƠƝ/ƠƑƑ]: 
@@ -84,7 +82,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = ["u2c7f708769a2eb35d9ae9f73cd366e0b","u186cf7940c7de8f76a3cbc76405f5f5c"]
+admin = ["uc77fd25b59f6e563d84f1334f3fed10b"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
@@ -97,12 +95,12 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["u2c7f708769a2eb35d9ae9f73cd366e0b","u186cf7940c7de8f76a3cbc76405f5f5c"]
-Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
-Rx2 = ["ua51ba06b0dd18c0bfe2cc6caa3458202"]
-Rx1 = ["u2c7f708769a2eb35d9ae9f73cd366e0b","u186cf7940c7de8f76a3cbc76405f5f5c"]
+admins = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+Rx5 = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+Rx4 = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+Rx3 = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+Rx2 = ["uc77fd25b59f6e563d84f1334f3fed10b"]
+Rx1 = ["uc77fd25b59f6e563d84f1334f3fed10b","uc77fd25b59f6e563d84f1334f3fed10b"]
 Administrator = admins + Rx5 + Rx4 + Rx3 + Rx2 + Rx1
 AS = Rx2 + Rx1 + Rx3 + Rx4 + Rx5
 adminsA = admins + Rx3 + Rx5
@@ -116,9 +114,9 @@ wait = {
     'leaveRoom':False,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks add meBy.Nunu : http://line.me/ti/p/ShgslAPyYS  ",
+    'message':"Thanks add meBy.Nunu : http://line.me/ti/p/~ebisuindo",
     "lang":"JP",
-    "comment":"Auto like 💗Love💗 : http://line.me/ti/p/ShgslAPyYS  ",
+    "comment":"Auto like  : http://line.me/ti/p/~ebisuindo",
     "likeOn":False,
     "commentOn":False,
     "commentBlack":{},
